@@ -1,6 +1,5 @@
-# JavaScript DevTools Blocker (devtools_detected)
+# **JavaScript DevTools Blocker / Anti-Debugging Script** (devtools_detected)
 
-# **JavaScript Anti-Debugging Script**
 This is a JavaScript code snippet that prevents debugging tools like DevTools from being used on a website. The code will override all console functions with a simple "Sorry, for security reasons..." message and will also detect if DevTools is opened and take action accordingly.
 ## **How it works**
 The script uses a few different techniques to prevent debugging. First, it overrides all console functions using Object.getOwnPropertyNames and Array.prototype.forEach. This prevents any logs, warnings, or errors from being output to the console.
